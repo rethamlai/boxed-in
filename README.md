@@ -5,4 +5,4 @@ A music visualiser built with Processing and Java for the Stranger Things C418 t
 
 ![alt text](https://github.com/rethamlai/boxed-in/blob/main/Sample/s1.png?raw=true)
 ![alt text](https://github.com/rethamlai/boxed-in/blob/main/Sample/s2.png?raw=true)
-![alt text](https://github.com/rethamlai/boxed-in/blob/main/Sample/s3.png?raw=true)
+![alt text](https://github.com/rethamlai/boxed-in/blob/main/Sample/s4.png?raw=true)
