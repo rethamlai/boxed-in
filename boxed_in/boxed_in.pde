@@ -51,10 +51,6 @@ float xSphereSpeed = 1;
 float ySphereSpeed = 1;
 float zSphereSpeed = 1;
 
-// Declare wall objects
-int noWalls = 1650;
-Wall[] walls;
-
 // Declare starting background colors
 float startR = 0;
 float endR = 50;
@@ -110,30 +106,6 @@ void setup() {
       random(-boxDimension, boxDimension), 
       5));
     popMatrix();
-  }
-
-  // Set up walls
-  walls = new Wall[noWalls];
-
-  //Create wall objects first, so they are layered below
-  //Left walls
-  for (int i = 0; i < noWalls; i+=4) {
-    walls[i] = new Wall(0, height/2, height/2, height);
-  }
-
-  //Right walls
-  for (int i = 1; i < noWalls; i+=4) {
-    walls[i] = new Wall(width, height/2, height/2, height);
-  }
-
-  //Bottom walls
-  for (int i = 2; i < noWalls; i+=4) {
-    walls[i] = new Wall(width/2, height, width, 10);
-  }
-
-  //Top walls
-  for (int i = 3; i < noWalls; i+=4) {
-    walls[i] = new Wall(width/2, 0, width, 10);
   }
 
   // Play song
